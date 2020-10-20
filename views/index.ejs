@@ -1,0 +1,18 @@
+
+<body style="margin-left:750px;"></body>
+<h1>Hello <%= name %></h1>
+Your Profile details - 
+<h1>Name : <%= name %></h1>
+<h1>EnrollmentID : <%= userid %></h1>
+<h1>Email : <%= email %></h1>
+<h1>Dateofbirth : <%= dob %></h1>
+<h1>Course : <%= course %></h1>
+<h1>Address : <%= address %></h1>
+<h1>CGPA : <%= cgpa %></h1>
+
+
+<form action="/logout?_method=DELETE" method="POST">
+  <button type="submit">Log Out</button>
+</form>
+
+<a href="/details">Modify your details</a>
